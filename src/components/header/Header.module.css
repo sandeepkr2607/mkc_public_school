@@ -1,0 +1,53 @@
+.mainHeader {
+  position: sticky;
+  width: 75%;
+  margin-left: 140px;
+  margin-right: auto;
+  top: 0;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 35px;
+  background-color: #305c49;
+  border-radius: 60px;
+}
+
+.leftHeader {
+  display: flex;
+  flex: 8;
+  list-style: none;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #939496;
+  margin-right: 200px;
+}
+
+.leftHeader > li {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+.leftHeader > li:hover {
+  color: #ff7c7c;
+  cursor: pointer;
+}
+
+.rightHeader {
+  display: flex;
+  flex: 2;
+  list-style: none;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.rightHeader > a {
+  width: 30px;
+  height: 30px;
+}
+.rightHeader > a:hover {
+  color: #ff7c7c;
+  cursor: pointer;
+}

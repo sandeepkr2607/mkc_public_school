@@ -1,0 +1,68 @@
+.top {
+  display: flex;
+  margin-top: 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  flex: 6;
+}
+.logo > img {
+  width: 85px;
+  height: 68px;
+  margin-top: 24px;
+  margin-left: 46px;
+}
+
+.addTiming {
+  display: flex;
+  flex: 6;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Address {
+  display: flex;
+  align-items: center;
+}
+
+.Address > img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.Address > span {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #373737;
+}
+
+.timing {
+  display: flex;
+  align-items: center;
+}
+
+.timing > img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.sechedule {
+  display: flex;
+  flex-direction: column;
+}
+
+.sechedule > span {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #373737;
+}

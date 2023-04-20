@@ -1,0 +1,34 @@
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.heading {
+  color: #305c49;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 43px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.photo_gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #305c49;
+  padding: 20px;
+  width: 97%;
+  border-radius: 10px;
+}
+
+.photo {
+  margin-left: 7px;
+  margin-right: 8px;
+  margin-bottom: 10px;
+}
