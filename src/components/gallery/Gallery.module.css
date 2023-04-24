@@ -31,4 +31,21 @@
   margin-left: 7px;
   margin-right: 8px;
   margin-bottom: 10px;
+  max-width: 315px;
+}
+
+@media screen and (max-width: 1383px) {
+  .photo {
+    max-width: 264px;
+  }
+}
+@media screen and (max-width: 1185px) {
+  .photo {
+    max-width: 215px;
+  }
+}
+@media screen and (max-width: 970px) {
+  .photo {
+    max-width: 160px;
+  }
 }

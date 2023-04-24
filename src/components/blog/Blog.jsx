@@ -49,49 +49,6 @@ const Blog = () => {
             <button className={css.btn}>Read More</button>
           </div>
         </div>
-        {/* <div className={css.bBottom}>
-          <div className={css.bLeft}>
-            <h2 className={css.bLHeading}>Latest News</h2>
-            <div className={css.bLeftNews}>
-              <p className={css.bLNews}>
-                Lorem ipsum dolor sit amet consectetur. Habitant varius et justo
-                volutpat lectus.
-              </p>
-              <p className={css.bLNews}>
-                Lorem ipsum dolor sit amet consectetur. Habitant varius et justo
-                volutpat lectus.
-              </p>
-              <p className={css.bLNews}>
-                Lorem ipsum dolor sit amet consectetur. Habitant varius et justo
-                volutpat lectus.
-              </p>
-              <p className={css.bLNews}>
-                Lorem ipsum dolor sit amet consectetur. Habitant varius et justo
-                volutpat lectus.
-              </p>
-            </div>
-          </div>
-          <div className={css.bRight}>
-            <h2 className={css.bRHeading}>Welcome To MKD Public School</h2>
-            <div className={css.bRBottom}>
-              <img src={blog4} alt="" className={css.bImg} />
-              <p className={css.bRContent}>
-                Lorem ipsum dolor sit amet consectetur. Platea id posuere
-                iaculis enim urna rhoncus consequat. Vitae arcu vulputate
-                pellentesque erat rhoncus amet iaculis. Non faucibus at
-                elementum euismod ullamcorper integer at. Pretium eget leo magna
-                fermentum ultrices dui. Sed blandit nulla.Lorem ipsum dolor sit
-                amet consectetur. Platea id posuere iaculis enim urna rhoncus
-                consequat. Vitae arcu vulputate pellentesque erat rhoncus amet
-                iaculis. Non faucibus at elementum euismod ullamcorper integer
-                consequat. Vitae arcu vulputate pellentesque erat rhoncus amet
-                iaculis. Non faucibus at elementum euismod ullamcorper integer
-                at. Pretium eget leo magna fermentum ultrices dui. Sed blandit
-                nulla.
-              </p>
-            </div>
-          </div>
-        </div> */}
       </div>
     </>
   );
