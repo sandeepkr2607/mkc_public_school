@@ -222,6 +222,10 @@
   text-align: left;
 }
 
+.mobileHero {
+  display: none;
+}
+
 @media screen and (max-width: 1360px) {
   .hero {
     display: flex;
@@ -445,6 +449,10 @@
     line-height: 25px;
     letter-spacing: 0.01em;
     text-align: left;
+  }
+
+  .mobileHero {
+    display: none;
   }
 }
 @media screen and (max-width: 1000px) {
@@ -692,5 +700,87 @@
     letter-spacing: 0.01em;
     text-align: left;
     padding: 10px;
+  }
+
+  .mobileHero {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .hero {
+    display: none;
+  }
+
+  .mobileHero {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    padding: 0 10px;
+  }
+
+  .mobileheroTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .mbl_logo {
+    width: 130px;
+    height: 102px;
+  }
+
+  .mbl_logo_img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .mbl_title {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    margin-top: 10px;
+    color: #305c49;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .mbl_disc {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #305c49;
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+
+  .mbl_contect {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 11px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #305c49;
+  }
+
+  .mblBtm {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiperSlide {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .swiperSlide > img {
+    width: 100%;
+    max-width: 370px;
   }
 }

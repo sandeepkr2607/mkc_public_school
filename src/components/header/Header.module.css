@@ -56,6 +56,10 @@
   cursor: pointer;
 }
 
+.mobileMain {
+  display: none;
+}
+
 @media screen and (max-width: 1224px) {
   .mainHeader {
     position: sticky;
@@ -113,6 +117,10 @@
   .rightHeader > a:hover {
     color: #ff7c7c;
     cursor: pointer;
+  }
+
+  .mobileMain {
+    display: none;
   }
 }
 
@@ -173,5 +181,53 @@
   .rightHeader > a:hover {
     color: #ff7c7c;
     cursor: pointer;
+  }
+
+  .mobileMain {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .mainHeader {
+    display: none;
+  }
+
+  .mobileMain {
+    display: block;
+    position: relative;
+    z-index: 999;
+  }
+
+  .mobileMenuLogo {
+    top: -35px;
+    right: 10px;
+    position: absolute;
+    color: #305c49;
+  }
+
+  .mobileMenu {
+    top: -12px;
+    right: 40px;
+    position: absolute;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-size: 17px;
+    background-color: #305c49;
+    color: #939496;
+    padding: 17px 20px;
+    border-radius: 5px;
+  }
+
+  .mobileMenu > li:hover {
+    color: #305c49;
+    background-color: #939496;
+    border-radius: 5px;
+    padding: 5px 4px;
+  }
+  .noMobileMenu {
+    display: none;
   }
 }

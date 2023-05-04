@@ -3,6 +3,7 @@ import css from './About.module.css';
 import CLJha from '../../images/CLJha.png';
 
 import blog4 from '../../images/blog4.png';
+import gal1 from '../../images/gal1.png';
 
 const About = () => {
   return (
@@ -141,6 +142,27 @@ const About = () => {
               </p>
             </div>
           </div>
+        </div>
+      </div>
+      <div className={css.mbl_about} id="mbl_about">
+        <div className={css.mbl_about_top}>
+          <h3 className={css.mbl_about_heading}>admisssion 2023-24</h3>
+          <h3 className={css.mbl_about_rest}>online admission portal</h3>
+          <h3 className={css.mbl_about_rest}>prospectus 2023</h3>
+          <h3 className={css.mbl_about_rest}>query</h3>
+          <h3 className={css.mbl_about_rest}>h.w. assignment</h3>
+        </div>
+        <div className={css.mbl_about_bottom}>
+          <img src={gal1} alt="" className={css.mbl_about_bottom_img} />
+
+          <h3 className={css.mbl_about_bottom_heading}>
+            Dream of Late Maa Kaushalya Devi
+          </h3>
+          <p className={css.mbl_about_para}>
+            A lady of piously religious heart, Maa Kaushalya Dvi's ardent desire
+            was always to make Motihari a place od dicipline, great Sacrament
+            and selfless service.
+          </p>
         </div>
       </div>
     </>

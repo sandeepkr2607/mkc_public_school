@@ -1,0 +1,10 @@
+.swiper-button-next {
+  color: #305c49 !important;
+}
+.swiper-button-prev {
+  color: #305c49 !important;
+}
+
+:root {
+  --swiper-theme-color: #305c49 !important;
+}

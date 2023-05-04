@@ -3,6 +3,7 @@ import css from './Blog.module.css';
 import blog1 from '../../images/blog1.png';
 import blog2 from '../../images/blog2.png';
 import blog3 from '../../images/blog3.png';
+
 // import blog4 from '../../images/blog4.png';
 
 const Blog = () => {

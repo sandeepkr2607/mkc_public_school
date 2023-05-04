@@ -39,6 +39,20 @@ const Gallery = () => {
           </div>
         </div>
       </div>
+      <div className={css.mbl_gallery} id="mbl_gallery">
+        <img src={gal1} alt="" className={css.mbl_photo} />
+        <img src={gal2} alt="" className={css.mbl_photo} />
+        <img src={gal3} alt="" className={css.mbl_photo} />
+        <img src={gal4} alt="" className={css.mbl_photo} />
+        <img src={gal5} alt="" className={css.mbl_photo} />
+        <img src={gal6} alt="" className={css.mbl_photo} />
+        <img src={gal7} alt="" className={css.mbl_photo} />
+        <img src={gal8} alt="" className={css.mbl_photo} />
+        <img src={gal9} alt="" className={css.mbl_photo} />
+        <img src={gal7} alt="" className={css.mbl_photo} />
+        <img src={gal4} alt="" className={css.mbl_photo} />
+        <img src={gal2} alt="" className={css.mbl_photo} />
+      </div>
     </>
   );
 };

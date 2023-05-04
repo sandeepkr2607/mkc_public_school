@@ -1,5 +1,6 @@
 import React from 'react';
 import css from './Contact.module.css';
+import contact_img from '../../images/contact_img.png';
 import email from '../../images/email.png';
 import phone from '../../images/phone.png';
 import locationSign from '../../images/locationSign.png';
@@ -62,6 +63,22 @@ const Contact = () => {
         <h3 className={css.copyright}>
           Copyright © 2021-22 All rights reserved | MKD Public School
         </h3>
+      </div>
+      <div className={css.mbl_contact} id="mbl_contact">
+        <h3 className={css.mbl_contact_title}>contact inquiry form</h3>
+        <img src={contact_img} alt="" className={css.mbl_img} />
+        <h2 className={css.mbl_schoolName}>MKD PUBLIC SCHOOL</h2>
+        <p className={css.mbl_para}>Affiliated to CBSE 10+2, New Delhi</p>
+        <p className={css.mbl_para}>
+          Affiliation No. - 330613, School No. 65607
+        </p>
+        <p className={css.mbl_para}>Station Jaunpul Road, Motihari</p>
+        <p className={css.mbl_para}>+91-9155880200</p>
+        <p className={css.mbl_para}>+91-8521429612</p>
+        <p className={css.mbl_para}>mkdps2014@gmail.com</p>
+        <p className={css.mbl_para_copy}>
+          Copyright © 2021-22 All rights reserved | MKD Public School
+        </p>
       </div>
     </>
   );

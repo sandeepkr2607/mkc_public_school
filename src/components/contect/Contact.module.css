@@ -242,6 +242,10 @@
   text-align: left;
 }
 
+.mbl_contact {
+  display: none;
+}
+
 @media screen and (max-width: 1235px) {
   .mainContect {
     display: flex;
@@ -486,5 +490,71 @@
     line-height: 27px;
     letter-spacing: 0.01em;
     text-align: center;
+  }
+
+  .mbl_contact {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .mainContect {
+    display: none;
+  }
+
+  .mbl_contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #305c49;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 0 15px;
+    border-radius: 7px;
+  }
+
+  .mbl_contact_title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+
+  .mbl_img {
+    width: 230px;
+  }
+
+  .mbl_schoolName {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 10px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #fff;
+  }
+
+  .mbl_para {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 10px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+
+  .mbl_para_copy {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #fff;
   }
 }

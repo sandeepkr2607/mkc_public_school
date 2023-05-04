@@ -10,6 +10,7 @@ import Contact from '../../components/contect/Contact';
 import Clock from '../../images/Clock.png';
 import Location from '../../images/Location.png';
 import Logo1 from '../../images/Logo1.png';
+import AboutSchool from '../../components/aboutSchool/AboutSchool';
 
 const Home = () => {
   return (
@@ -35,6 +36,7 @@ const Home = () => {
       <Header />
       <Hero />
       <About />
+      <AboutSchool />
       <Gallery />
       <Blog />
       <Contact />

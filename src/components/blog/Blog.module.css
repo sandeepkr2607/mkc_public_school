@@ -644,3 +644,9 @@
     cursor: pointer;
   }
 }
+
+@media screen and (max-width: 880px) {
+  .blog {
+    display: none;
+  }
+}

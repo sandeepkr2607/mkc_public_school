@@ -34,18 +34,60 @@
   max-width: 315px;
 }
 
+.mbl_gallery {
+  display: none;
+}
+
 @media screen and (max-width: 1383px) {
   .photo {
     max-width: 264px;
+  }
+
+  .mbl_gallery {
+    display: none;
   }
 }
 @media screen and (max-width: 1185px) {
   .photo {
     max-width: 215px;
   }
+
+  .mbl_gallery {
+    display: none;
+  }
 }
 @media screen and (max-width: 970px) {
   .photo {
     max-width: 160px;
+  }
+
+  .mbl_gallery {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .gallery {
+    display: none;
+  }
+
+  .mbl_gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    height: 500px;
+    overflow: scroll;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 12px;
+    background-color: #305c49;
+    border-radius: 7px;
+  }
+
+  .mbl_photo {
+    max-width: 180px;
+    max-height: 250px;
   }
 }
