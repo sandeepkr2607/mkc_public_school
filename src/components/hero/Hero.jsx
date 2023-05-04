@@ -40,7 +40,7 @@ const Hero = () => {
               admisssion for acedemic session 2022 - 2023 is going on. seats are
               limited. visit our school for latst updates
             </p>
-            <botton className={css.btn}>NEXT > > </botton>
+            <button className={css.btn}>NEXT > > </button>
           </div>
         </div>
         <div className={css.bottom}>

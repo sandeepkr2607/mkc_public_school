@@ -30,11 +30,11 @@ const AboutSchool = () => {
       </div>
       <div className={css.about_bottom}>
         <h2 className={css.bottom_heading}>20 years of experience</h2>
-        <para className={css.bpttpm_para}>
+        <p className={css.bpttpm_para}>
           A lady of piously religious heart, Maa Kaushalya Dvi's ardent desire
           was always to make Motihari a place od dicipline, great Sacrament and
           selfless service.
-        </para>
+        </p>
         <div className={css.row_one}>
           <button className={css.row_btn}>1351 successful kids</button>
           <button className={css.row_btn}>964 happy parents</button>

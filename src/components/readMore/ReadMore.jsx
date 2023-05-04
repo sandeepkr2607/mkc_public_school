@@ -11,7 +11,7 @@ const ReadMore = ({ item }) => {
     <div className={css.readmore_main}>
       <h2 className={css.readmore_heading}>{item.title}</h2>
       <img src={item.img} alt="" className={css.readmore_img} />
-      <para className={css.readmore_para}>{item.para}</para>
+      <p className={css.readmore_para}>{item.para}</p>
       <p className={css.readmore_show} {...getCollapseProps()}>
         {item.show}
       </p>
