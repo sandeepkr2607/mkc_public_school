@@ -9,14 +9,14 @@ const data = [
   {
     title: 'WELCOME TO MKD PUBLIC SCHOOL',
     img: School,
-    para: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem necessitatibus cumque nesciunt non ipsa at enim qui totam, facilis itaque nobis delectus labore molestiae! Fuga dolore, eius earum ad, expedita tenetur, architecto in cupiditate quisquam hic distinctio ducimus? Tempora, voluptate blanditiis?',
-    show: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. A exercitationem inventore deserunt, hic sapiente optio, minus voluptatibus non maiores repudiandae doloremque necessitatibus quo reiciendis facilis laudantium eos amet consectetur nobis eaque animi. Quos tempora sint maiores temporibus porro alias assumenda praesentium rem, illum iure laudantium optio veniam minus cumque. Quaerat!',
+    para: 'm.k.d public school is the sunrise institution in motihari at shantipuri, east champaran by the chairman advocate madan jha with the objectives of empowering the k',
+    show: ' ',
   },
   {
     title: 'principle’s message',
     img: gal1,
-    para: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem necessitatibus cumque nesciunt non ipsa at enim qui totam, facilis itaque nobis delectus labore molestiae! Fuga dolore, eius earum ad, expedita tenetur, architecto in cupiditate quisquam hic distinctio ducimus? Tempora, voluptate blanditiis?',
-    show: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. A exercitationem inventore deserunt, hic sapiente optio, minus voluptatibus non maiores repudiandae doloremque necessitatibus quo reiciendis facilis laudantium eos amet consectetur nobis eaque animi. Quos tempora sint maiores temporibus porro alias assumenda praesentium rem, illum iure laudantium optio veniam minus cumque. Quaerat!',
+    para: 'we at m.k.d.public school are very proud to be at the most recognised school chains in the country delivering high acedemic standards within a very caring and supportive school system.',
+    show: ' ',
   },
 ];
 

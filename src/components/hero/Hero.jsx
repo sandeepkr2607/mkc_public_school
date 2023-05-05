@@ -78,7 +78,7 @@ const Hero = () => {
             <div className={css.circleFour}>
               <img src={hero4} alt="" />
             </div>
-            <h2 className={css.headingTwo}>h.w.assignment</h2>
+            <h2 className={css.headingTwo}>h. w. assignment</h2>
             <p className={css.paraNew}>
               Lorem ipsum dolor sit amet consectetur. Habitant varius et justo
               volutpat lectus.
