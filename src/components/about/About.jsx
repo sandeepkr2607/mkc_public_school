@@ -61,7 +61,7 @@ const About = () => {
                 <p className={css.cardPost}>Director</p>
                 <p className={css.cardName}>Dr. C.L.Jha</p>
               </div>
-              <img src={CLJha} alt="" />
+              {/* <img src={CLJha} alt="" /> */}
             </div>
           </div>
           <div className={css.card}>
@@ -78,7 +78,7 @@ const About = () => {
                 <p className={css.cardPost}>Principal</p>
                 <p className={css.cardName}>A.N.Pandey</p>
               </div>
-              <img src={CLJha} alt="" />
+              {/* <img src={CLJha} alt="" /> */}
             </div>
           </div>
           <div className={css.card}>
@@ -95,7 +95,7 @@ const About = () => {
                 <p className={css.cardPost}>Secretary</p>
                 <p className={css.cardName}>Dr. Ajit Vats</p>
               </div>
-              <img src={CLJha} alt="" />
+              {/* <img src={CLJha} alt="" /> */}
             </div>
           </div>
         </div>
