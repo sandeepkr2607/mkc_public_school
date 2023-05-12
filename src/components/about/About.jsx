@@ -1,6 +1,6 @@
 import React from 'react';
 import css from './About.module.css';
-import CLJha from '../../images/CLJha.png';
+// import CLJha from '../../images/CLJha.png';
 
 import blog4 from '../../images/blog4.png';
 import gal1 from '../../images/gal1.png';
