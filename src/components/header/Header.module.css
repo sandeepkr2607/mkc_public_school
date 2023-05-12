@@ -19,7 +19,7 @@
   list-style: none;
   align-items: center;
   justify-content: space-evenly;
-  color: #939496;
+  color: white;
   margin-right: 200px;
 }
 
@@ -41,7 +41,6 @@
 
 .rightHeader {
   display: flex;
-  flex: 2;
   list-style: none;
   align-items: center;
   justify-content: space-evenly;
@@ -82,7 +81,7 @@
     list-style: none;
     align-items: center;
     justify-content: space-evenly;
-    color: #939496;
+    color: white;
     margin-right: 30px;
   }
 
@@ -146,7 +145,7 @@
     list-style: none;
     align-items: center;
     justify-content: space-evenly;
-    color: #939496;
+    color: white;
     margin-right: 30px;
   }
 

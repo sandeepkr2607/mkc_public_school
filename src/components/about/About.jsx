@@ -1,6 +1,6 @@
 import React from 'react';
 import css from './About.module.css';
-// import CLJha from '../../images/CLJha.png';
+import CLJha from '../../images/CLJha.png';
 
 import blog4 from '../../images/blog4.png';
 import gal1 from '../../images/gal1.png';
@@ -96,7 +96,7 @@ const About = () => {
                 <p className={css.cardName}>Dr. Ajit Vats</p>
               </div>
               {/* <img src={CLJha} alt="" /> */}
-            </div>
+            </div> 
           </div>
         </div>
 
@@ -105,21 +105,9 @@ const About = () => {
             <h2 className={css.bLHeading}>Latest News</h2>
             <div className={css.bLeftNews}>
               <p className={css.bLNews}>
-                Lorem ipsum dolor sit amet consectetur. Habitant varius et justo
-                volutpat lectus.
+                Admission Open
               </p>
-              <p className={css.bLNews}>
-                Lorem ipsum dolor sit amet consectetur. Habitant varius et justo
-                volutpat lectus.
-              </p>
-              <p className={css.bLNews}>
-                Lorem ipsum dolor sit amet consectetur. Habitant varius et justo
-                volutpat lectus.
-              </p>
-              <p className={css.bLNews}>
-                Lorem ipsum dolor sit amet consectetur. Habitant varius et justo
-                volutpat lectus.
-              </p>
+              
             </div>
           </div>
           <div className={css.bRight}>
@@ -127,18 +115,7 @@ const About = () => {
             <div className={css.bRBottom}>
               <img src={blog4} alt="" className={css.bImg} />
               <p className={css.bRContent}>
-                Lorem ipsum dolor sit amet consectetur. Platea id posuere
-                iaculis enim urna rhoncus consequat. Vitae arcu vulputate
-                pellentesque erat rhoncus amet iaculis. Non faucibus at
-                elementum euismod ullamcorper integer at. Pretium eget leo magna
-                fermentum ultrices dui. Sed blandit nulla.Lorem ipsum dolor sit
-                amet consectetur. Platea id posuere iaculis enim urna rhoncus
-                consequat. Vitae arcu vulputate pellentesque erat rhoncus amet
-                iaculis. Non faucibus at elementum euismod ullamcorper integer
-                consequat. Vitae arcu vulputate pellentesque erat rhoncus amet
-                iaculis. Non faucibus at elementum euismod ullamcorper integer
-                at. Pretium eget leo magna fermentum ultrices dui. Sed blandit
-                nulla.
+              m.k.d public school is the sunrise institution in motihari at shantipuri, east champaran by the chairman advocate madan jha with the objectives of empowering the knowledge of students where children may develop mentally,physically and culturally. our classes are conducted in comfortable & well equipped classrooms.
               </p>
             </div>
           </div>

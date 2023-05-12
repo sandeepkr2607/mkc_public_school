@@ -24,8 +24,8 @@ const Blog = () => {
             <img src={blog1} alt="" />
             <h3 className={css.bTitle}>Skills To Develope Your Child Memory</h3>
             <p className={css.bdisc}>
-              Lorem ipsum dolor sit amet consectetur. Habitant varius et justo
-              volutpat lectus.
+              {/* Lorem ipsum dolor sit amet consectetur. Habitant varius et justo
+              volutpat lectus. */}
             </p>
             <button className={css.btn}>Read More</button>
           </div>
@@ -34,8 +34,8 @@ const Blog = () => {
             <img src={blog2} alt="" />
             <h3 className={css.bTitle}>Skills To Develope Your Child Memory</h3>
             <p className={css.bdisc}>
-              Lorem ipsum dolor sit amet consectetur. Habitant varius et justo
-              volutpat lectus.
+              {/* Lorem ipsum dolor sit amet consectetur. Habitant varius et justo
+              volutpat lectus. */}
             </p>
             <button className={css.btn}>Read More</button>
           </div>
@@ -44,8 +44,8 @@ const Blog = () => {
             <img src={blog3} alt="" />
             <h3 className={css.bTitle}>Skills To Develope Your Child Memory</h3>
             <p className={css.bdisc}>
-              Lorem ipsum dolor sit amet consectetur. Habitant varius et justo
-              volutpat lectus.
+              {/* Lorem ipsum dolor sit amet consectetur. Habitant varius et justo
+              volutpat lectus. */}
             </p>
             <button className={css.btn}>Read More</button>
           </div>

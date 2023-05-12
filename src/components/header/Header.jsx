@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import css from './Header.module.css';
 import { Link } from 'react-scroll';
+// import { Link as Linkfb } from "react-router-dom"
 import Facebook from '../../images/Facebook.png';
 import Twitter from '../../images/Twitter.png';
 import Insta from '../../images/Insta.png';
@@ -50,15 +51,15 @@ const Header = () => {
         </div>
 
         <div className={css.rightHeader}>
-          <Link to="contact" smooth={true} duration={500}>
+          <a href="https://www.facebook.com/mkdps.motihari?mibextid=ZbWKwL" target="_blank"  smooth={true} duration={500}>
             <img src={Facebook} alt="" />
-          </Link>
-          <Link to="contact" smooth={true} duration={500}>
+          </a>
+          {/* <Link to="contact" smooth={true} duration={500}>
             <img src={Insta} alt="" />
           </Link>
           <Link to="contact" smooth={true} duration={500}>
             <img src={Twitter} alt="" />
-          </Link>
+          </Link> */}
         </div>
       </div>
       <div className={css.mobileMain}>

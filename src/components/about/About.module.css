@@ -142,7 +142,7 @@
 
 .card {
   width: 384px;
-  height: 444px;
+  height: 473px;
   background-color: #305c49;
   gap: 20px;
   padding: 20px;
@@ -156,16 +156,18 @@
   font-family: 'Julee';
   font-style: normal;
   font-weight: 400;
-  font-size: 26px;
+  font-size: 23px;
   line-height: 30px;
   /* or 115% */
+  line-height: 33px;
 
-  letter-spacing: 0.01em;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
   overflow: hidden;
-  background: linear-gradient(180deg, #f2f2f2 0%, rgba(242, 242, 242, 0) 100%);
+  color: #fff;
+  /* background: linear-gradient(180deg, #f2f2f2 0%, rgba(242, 242, 242, 0) 100%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
   background-clip: text;
   text-fill-color: transparent;
 }
@@ -175,7 +177,7 @@
   position: absolute;
   align-items: center;
   justify-content: center;
-  top: 390px;
+  top: 415px;
   right: 35px;
   height: 60px;
 }
@@ -243,13 +245,13 @@
   background-color: #f2f2f2;
   color: #ff7c7c;
   padding: 15px;
-  max-width: 350px;
+  width: 350px;
   height: 370px;
   border-radius: 6px;
 }
 
 .bLNews {
-  font-size: 20px;
+  font-size: 28px;
   font-weight: 400;
   line-height: 30px;
   letter-spacing: 0.01em;
@@ -299,6 +301,7 @@
   letter-spacing: 0.01em;
   text-align: left;
   margin-left: 20px;
+  text-transform: capitalize;
 }
 
 .mbl_about {
@@ -448,7 +451,7 @@
 
   .card {
     width: 384px;
-    height: 444px;
+    height: 473px;
     background-color: #305c49;
     gap: 20px;
     padding: 20px;
@@ -468,14 +471,15 @@
 
     letter-spacing: 0.01em;
     text-transform: capitalize;
+    color: #fff;
 
-    background: linear-gradient(
+    /* background: linear-gradient(
       180deg,
       #f2f2f2 0%,
       rgba(242, 242, 242, 0) 100%
     );
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
     background-clip: text;
     text-fill-color: transparent;
   }
@@ -485,7 +489,7 @@
     position: absolute;
     align-items: center;
     justify-content: center;
-    top: 390px;
+    top: 415px;
     right: 35px;
     height: 60px;
   }
@@ -764,7 +768,7 @@
 
   .card {
     width: 384px;
-    height: 444px;
+    height: 473px;
     background-color: #305c49;
     gap: 20px;
     padding: 20px;
@@ -784,14 +788,15 @@
 
     letter-spacing: 0.01em;
     text-transform: capitalize;
+    color: #fff;
 
-    background: linear-gradient(
+    /* background: linear-gradient(
       180deg,
       #f2f2f2 0%,
       rgba(242, 242, 242, 0) 100%
     );
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
     background-clip: text;
     text-fill-color: transparent;
   }
@@ -801,7 +806,7 @@
     position: absolute;
     align-items: center;
     justify-content: center;
-    top: 390px;
+    top: 415px;
     right: 35px;
     height: 60px;
   }
@@ -969,6 +974,7 @@
     width: 100%;
     border-radius: 5px;
     margin-bottom: 15px;
+    color: white;
   }
 
   .mbl_about_rest {
