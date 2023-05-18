@@ -4,6 +4,7 @@ import contact_img from '../../images/contact_img.png';
 import email from '../../images/email.png';
 import phone from '../../images/phone.png';
 import locationSign from '../../images/locationSign.png';
+import Facebook from '../../images/Facebook.png';
 
 const Contact = () => {
   return (
@@ -65,7 +66,7 @@ const Contact = () => {
         </h3>
       </div>
       <div className={css.mbl_contact} id="mbl_contact">
-        <h3 className={css.mbl_contact_title}>contact inquiry form</h3>
+        <h3 className={css.mbl_contact_title}>contact</h3>
         <img src={contact_img} alt="" className={css.mbl_img} />
         <h2 className={css.mbl_schoolName}>MKD PUBLIC SCHOOL</h2>
         <p className={css.mbl_para}>Affiliated to CBSE 10+2, New Delhi</p>
@@ -76,6 +77,10 @@ const Contact = () => {
         <p className={css.mbl_para}>+91-9155880200</p>
         <p className={css.mbl_para}>+91-8521429612</p>
         <p className={css.mbl_para}>mkdps2014@gmail.com</p>
+        <a href="https://www.facebook.com/mkdps.motihari?mibextid=ZbWKwL" target="_blank"  smooth={true} duration={500} >
+          <span className={css.fb_link} >Contact Us On Facebook</span>
+            {/* <img src={Facebook} alt="" /> */}
+          </a>
         <p className={css.mbl_para_copy}>
           Copyright © 2021-22 All rights reserved | MKD Public School
         </p>

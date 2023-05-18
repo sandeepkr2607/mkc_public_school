@@ -810,6 +810,10 @@
       width: 100%;
       max-width: 370px;
     }
+
+    .rectangle {
+      height: 300px !important;
+    }
   }
   
   position: relative;

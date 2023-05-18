@@ -207,7 +207,7 @@
 .rightTop {
   width: 600px;
   height: 600px;
-  background-color: #f2f2f2;
+  background-color: #939496;
 }
 
 .rightHeading {
@@ -521,6 +521,7 @@
     letter-spacing: 0.01em;
     text-align: left;
     color: #fff;
+    margin-bottom: 20px;
     text-transform: uppercase;
     text-decoration: underline;
   }
@@ -556,5 +557,16 @@
     letter-spacing: 0.01em;
     text-align: left;
     color: #fff;
+  }
+
+a {
+  text-decoration: none;
+  margin-top: 10px;
+  color: #fff;
+}
+
+  a:hover {
+   color: #939496;
+ 
   }
 }

@@ -1,0 +1,148 @@
+.pride {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 50px;
+}
+
+.pride_heading {
+  font-family: Roboto;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 43px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #305c49;
+}
+
+.pride_top,
+.pride_bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pride_top_heading,
+.pride_bottom_heading {
+  font-family: Roboto;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 43px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #ffffff;
+  background-color: #305c49;
+  padding: 10px 40px;
+  border: bone;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+
+.students_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.student_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 320px;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.student_details_logo {
+  position: absolute;
+  top: 140px;
+}
+
+.student_name,
+.student_marks {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #fcd755;
+  z-index: 2;
+  position: absolute;
+}
+
+.student_name {
+  top: 191px;
+}
+.student_marks {
+  top: 212px;
+}
+
+@media screen and (max-width: 500px) {
+  .pride {
+    padding: 20px 20px;
+  }
+
+  .pride_heading {
+    font-size: 30px;
+  }
+
+  .pride_top_heading,
+  .pride_bottom_heading {
+    font-size: 18px;
+    padding: 0 30px;
+    margin-bottom: 20px;
+  }
+
+  .students_container {
+    margin-bottom: 10px;
+  }
+
+  .student_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 165px;
+    position: relative;
+    margin-bottom: 40px;
+  }
+
+  .student_img {
+    width: 140px;
+  }
+  .student_details_logo {
+    position: absolute;
+    top: 110px;
+    width: 180px;
+  }
+
+  .student_name,
+  .student_marks {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Roboto;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #fcd755;
+    z-index: 2;
+    position: absolute;
+  }
+
+  .student_name {
+    top: 134px;
+  }
+  .student_marks {
+    top: 147px;
+  }
+}

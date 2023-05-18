@@ -1,16 +1,17 @@
-import React from 'react';
-import css from './Home.module.css';
-import Header from '../../components/header/Header';
-import Hero from '../../components/hero/Hero';
-import About from '../../components/about/About';
-import Gallery from '../../components/gallery/Gallery';
-import Blog from '../../components/blog/Blog';
-import Contact from '../../components/contect/Contact';
+import React from "react";
+import css from "./Home.module.css";
+import Header from "../../components/header/Header";
+import Hero from "../../components/hero/Hero";
+import About from "../../components/about/About";
+import Gallery from "../../components/gallery/Gallery";
+import Blog from "../../components/blog/Blog";
+import Contact from "../../components/contect/Contact";
 
-import Clock from '../../images/Clock.png';
-import Location from '../../images/Location.png';
-import Logo1 from '../../images/Logo1.png';
-import AboutSchool from '../../components/aboutSchool/AboutSchool';
+import Clock from "../../images/Clock.png";
+import Location from "../../images/Location.png";
+import Logo1 from "../../images/Logo1.png";
+import AboutSchool from "../../components/aboutSchool/AboutSchool";
+import Pride from "../../components/pride/Pride";
 
 const Home = () => {
   return (
@@ -37,6 +38,7 @@ const Home = () => {
       <Hero />
       <About />
       <AboutSchool />
+      <Pride />
       <Gallery />
       <Blog />
       <Contact />

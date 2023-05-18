@@ -6,6 +6,7 @@ import school2 from '../../images/school2.png';
 import school3 from '../../images/school3.png';
 import school4 from '../../images/school4.png';
 import Rectangle from '../../images/Rectangle.png';
+// import Rectangle2 from '../../images/Rectangle2.png';
 import hero1 from '../../images/hero1.png';
 import hero2 from '../../images/hero2.png';
 import hero3 from '../../images/hero3.png';
@@ -120,8 +121,8 @@ const Hero = () => {
             <SwiperSlide className={css.swiperSlide}>
               <img src={school3} alt="" />
             </SwiperSlide>
-            <SwiperSlide className={css.swiperSlide}>
-              <img src={school4} alt="" />
+            <SwiperSlide className={css.rectangle}>
+              <img src={school4} className={css.rectangle} alt="" />
             </SwiperSlide>
           </Swiper>
         </div>
